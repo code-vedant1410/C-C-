@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+
+    <style>
+        body{
+            
+            background-color: rgb(177, 250, 177)    ;
+        }
+
+        table{
+            width: 100%;
+            margin-top: 130px;
+            
+
+        }
+
+        ::placeholder{
+            color: black;
+            text-align: center;
+        }
+
+        td{
+            text-align: center;
+            padding: 3px;
+        }
+
+        input{
+            border-color: rgb(117, 187, 117) ;
+            border-style: solid;
+            border-width: 5px;
+            width: 30%;
+            height: 30px;
+            font-size: 18px;
+            margin-top: 10px;
+            border-radius: 5px;
+            box-shadow: 15px 15px 20px black;
+            transition: 0.5s;
+        }
+
+        input:hover{
+            transform: translateY(0) scale(1.2);
+            box-shadow: 30px 20px 30px black;
+            background-color: rgb(166, 233, 166) ;
+            border-color: white
+        }
+
+        .fst{
+            padding-bottom: 30px;
+            padding-top: 50px;
+        }
+
+        .last{
+            padding-top: 20px;
+            
+        }
+
+        th{
+            font-size: 30px;
+        }
+
+    
+
+    
+        
+    </style>
+    
+</head>
+<body>
+
+    <table>
+        
+        <!-- my tr tag start here... -->
+        <th>
+            REGISTRATION FORM
+        </th>
+        <tr>
+            <td class="fst">
+            <input type="text" placeholder="First Name" style="width: 180px; margin-right: 20px;">
+            
+            
+            <input type="text" placeholder="Last Name" style="width: 180px; ">
+            </td>
+        </tr>
+
+        <tr>
+            
+            <td>
+                <a href="#" class="fa fa-facebook"></a>  <input type="text" placeholder="Username">
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="email" placeholder="Email"></td>
+        </tr>
+
+        <tr>
+            <td><input type="number" placeholder="Tel.Number"></td>
+        </tr>
+
+        <tr>
+            <td><input type="password" placeholder="Password"></td>
+        </tr>
+
+        <tr>
+            <td><input type="password" placeholder="Confirm password"></td>
+        </tr>
+
+        <tr>
+           <td class="last"> <input type="submit"  style="width: 80px;"> </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
